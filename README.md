@@ -38,7 +38,7 @@ Create `shop` Database in PostgreSQL and change `USER` `PASSWORD` `HOST` in the 
 
 ## Migrate Models
 ```
-python manage.py makemigrations
+python manage.py makemigrations orderapp
 ```
 ```
 python manage.py migrate
