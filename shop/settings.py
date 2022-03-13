@@ -110,9 +110,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'fa-ir'
+LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asia/Tehran'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
@@ -128,8 +128,9 @@ STATIC_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = '/static/'
 
 # CKeditor
-CKEDITOR_BASEPATH = '/static/ckeditor/ckeditor'
-CKEDITOR_UPLOAD_PATH = 'uploads'
+CKEDITOR_BASEPATH = "/static/ckeditor/ckeditor/"
+CKEDITOR_UPLOAD_PATH = "uploads/"
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field

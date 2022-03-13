@@ -1,5 +1,4 @@
 """models"""
-from datetime import datetime
 from django.db import models
 from django.contrib.auth.models import User
 from ckeditor.fields import RichTextField
@@ -28,11 +27,10 @@ class Product(models.Model):
 
 class OrderApp(models.Model):
     """order models"""
-    title = models.CharField(max_length=50, null=False, blank=False)
     customer = models.OneToOneField(Customer, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    create_at = models.DateTimeField(default=datetime.now())
+    create_at = models.DateTimeField(auto_now_add=True)
     description = RichTextField()
 
     def __str__(self):
-        return f"{self.title} {self.customer} {self.product}"
+        return f"{self.customer} {self.product}"
