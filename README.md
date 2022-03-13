@@ -13,10 +13,10 @@ Simple shop with Django!
 
 ## Download Codes
 ```
-git clone https://github.com/dori-dev/django-shop.git
+git clone https://github.com/dori-dev/django-simple-shop.git
 ```
 ```
-cd django-shop
+cd django-simple-shop
 ```
 
 ## Build Virtual Environment
