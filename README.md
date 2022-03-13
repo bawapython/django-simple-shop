@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 
 ## Setup PostgreSQL
-create `shop` database in postgresql and change `USER` `PASSWORD` and `HOST` in shop/setting.py
+Create `shop` Database in PostgreSQL and change `USER` `PASSWORD` `HOST` in the `shop/setting.py`
 
 
 ## Migrate Models
