@@ -56,6 +56,7 @@ python manage.py runserver
 
 ## Open On Browser
 Go to admin page and create `customer`, `product` and `order`!
+<br>
 [127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
 
 #
