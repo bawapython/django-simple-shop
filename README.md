@@ -66,5 +66,3 @@ Go to admin page and create `customer`, `product` and `order`!
 Download Source Code: [Click Here](https://github.com/dori-dev/django-shop/archive/refs/heads/master.zip)
 
 My Github Account: [Click Here](https://github.com/dori-dev/)
-
-
